@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-To_read_test_data" class="navigator-link">
+              <span class="suite-name border-passed">To read test data</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-To_read_test_data" class="navigator-link ">
+                    <span>C:\eclipse-workspace\conduitweb\testng1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-To_read_test_data" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-To_read_test_data" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-To_read_test_data" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-To_read_test_data" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-To_read_test_data" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-To_read_test_data" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-To_read_test_data" class="hide-methods passed suite-To_read_test_data"> (hide)</a> <!-- hide-methods passed suite-To_read_test_data -->
+                      <a href="#" panel-name="suite-To_read_test_data" class="show-methods passed suite-To_read_test_data"> (show)</a> <!-- show-methods passed suite-To_read_test_data -->
+                    </span>
+                    <div class="method-list-content passed suite-To_read_test_data">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-To_read_test_data" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="addComment(This is a test comment)">addComment(This is a test comment)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-To_read_test_data" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="createPost(Test Article, About Test Automation, Test automation can automate some repetitive but necessary task...)">createPost(Test Article, About Test Automation, Test automation can automate some repetitive but necessary task...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-To_read_test_data" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="deletePost">deletePost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-To_read_test_data" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="logOut">logOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-To_read_test_data" title="testcases.LoginPageTest" class="method navigator-link" hash-for-method="signIn(aklamio.testing@gmail.com, testing1234)">signIn(aklamio.testing@gmail.com, testing1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-To_read_test_data -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-To_read_test_data" class="panel To_read_test_data">
+          <div class="suite-To_read_test_data-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addComment(This is a test comment)">
+                  </a> <!-- addComment(This is a test comment) -->
+                  <span class="method-name">addComment</span>
+                  <span class="parameters">(This is a test comment)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPost(Test Article, About Test Automation, Test automation can automate some repetitive but necessary task...)">
+                  </a> <!-- createPost(Test Article, About Test Automation, Test automation can automate some repetitive but necessary task...) -->
+                  <span class="method-name">createPost</span>
+                  <span class="parameters">(Test Article, About Test Automation, Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. , test,automation,selenium, java)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deletePost">
+                  </a> <!-- deletePost -->
+                  <span class="method-name">deletePost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOut">
+                  </a> <!-- logOut -->
+                  <span class="method-name">logOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn(aklamio.testing@gmail.com, testing1234)">
+                  </a> <!-- signIn(aklamio.testing@gmail.com, testing1234) -->
+                  <span class="method-name">signIn</span>
+                  <span class="parameters">(aklamio.testing@gmail.com, testing1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-To_read_test_data-class-passed -->
+        </div> <!-- panel To_read_test_data -->
+        <div panel-name="test-xml-To_read_test_data" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\eclipse-workspace\conduitweb\testng1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;To read test data&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;To read test data&quot;&gt;
+    &lt;parameter name=&quot;articletitle&quot; value=&quot;Test Article&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;testing1234&quot;/&gt;
+    &lt;parameter name=&quot;aboutarticle&quot; value=&quot;About Test Automation&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;comment&quot; value=&quot;This is a test comment&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://react-redux.realworld.io/&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;aklamio.testing@gmail.com&quot;/&gt;
+    &lt;parameter name=&quot;articledetails&quot; value=&quot;Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. &quot;/&gt;
+    &lt;parameter name=&quot;tags&quot; value=&quot;test,automation,selenium, java&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To read test data --&gt;
+&lt;/suite&gt; &lt;!-- To read test data --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-To_read_test_data" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for To read test data</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">To read test data (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-To_read_test_data" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for To read test data</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-To_read_test_data" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for To read test data</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_To_read_test_data');
+function tableData_To_read_test_data() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createPost')
+data.setCell(0, 2, 'testcases.LoginPageTest')
+data.setCell(0, 3, 2458);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addComment')
+data.setCell(1, 2, 'testcases.LoginPageTest')
+data.setCell(1, 3, 1461);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signIn')
+data.setCell(2, 2, 'testcases.LoginPageTest')
+data.setCell(2, 3, 658);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logOut')
+data.setCell(3, 2, 'testcases.LoginPageTest')
+data.setCell(3, 3, 368);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deletePost')
+data.setCell(4, 2, 'testcases.LoginPageTest')
+data.setCell(4, 3, 130);
+window.suiteTableData['To_read_test_data']= { tableData: data, tableDiv: 'times-div-To_read_test_data'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-To_read_test_data">
+              </div> <!-- times-div-To_read_test_data -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-To_read_test_data" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for To read test data</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-To_read_test_data" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-To_read_test_data" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">preLoadInitData(chrome, https://react-redux.realworld.io/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">signIn(aklamio.testing@gmail.com, testing1234)</span>
+                <span class="method-start">6419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createPost(Test Article, About Test Automation, Test automation can automate some repetitive but necessary task...)</span>
+                <span class="method-start">7088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addComment(This is a test comment)</span>
+                <span class="method-start">9552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deletePost</span>
+                <span class="method-start">11020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOut</span>
+                <span class="method-start">11156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">11526 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [To read test data]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="To read test data(failed)">
+    <parameter name="articletitle" value="Test Article"/>
+    <parameter name="password" value="testing1234"/>
+    <parameter name="aboutarticle" value="About Test Automation"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="comment" value="This is a test comment"/>
+    <parameter name="url" value="https://react-redux.realworld.io/"/>
+    <parameter name="email" value="aklamio.testing@gmail.com"/>
+    <parameter name="articledetails" value="Test automation can automate some repetitive but necessary tasks in a formalized testing process already in place, or perform additional testing that would be difficult to do manually. "/>
+    <parameter name="tags" value="test,automation,selenium, java"/>
+    <classes>
+      <class name="testcases.LoginPageTest">
+        <methods>
+          <include name="logOut"/>
+          <include name="preLoadInitData"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- To read test data(failed) -->
+</suite> <!-- Failed suite [To read test data] -->
